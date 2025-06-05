@@ -6,3 +6,8 @@ My aim is to use this to practice my html and css skills, and hopefully over tim
 I want my web page to have a crisp and clear look with usability in mind, and for it to dynamically adjust for different devices.
 I would like to also add a dark mode.
 I would also really like to investigate accessability options and solutions, eg enlarge text, colour blindness, adding audio description?
+
+## Tech
+
+ - Vite
+ - Tailwind
