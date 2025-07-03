@@ -1,28 +1,19 @@
 {
   "name": "my_portfolio",
   "version": "1.0.0",
-  "description": "I just want to start building a website that represents myself, like an online CV with my projects (once I have some).",
-  "homepage": "https://github.com/pennysampson/my_portfolio#readme",
-  "bugs": {
-    "url": "https://github.com/pennysampson/my_portfolio/issues"
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pennysampson/my_portfolio.git"
+    "url": "https://github.com/pennysampson/my_portfolio"
   },
-  "license": "ISC",
-  "author": "Penelope Sampson",
-  "type": "module",
-  "main": "index.js",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "private": true,
   "dependencies": {
-    "@tailwindcss/vite": "^4.1.8",
-    "express": "^5.1.0",
-    "vite": "^6.3.5"
+    "@tailwindcss/vite": "^4.1.11",
+    "tailwindcss": "^4.1.11",
+    "vite": "^7.0.1"
   }
 }
