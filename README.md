@@ -10,4 +10,8 @@ I would also really like to investigate accessability options and solutions, eg 
 ## Tech
 
  - Vite
+   https://vite.dev/guide/
  - Tailwind
+
+## Instructions
+Run 'npx vite' in the terminal

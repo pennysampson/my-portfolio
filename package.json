@@ -23,7 +23,6 @@
   "dependencies": {
     "@tailwindcss/vite": "^4.1.8",
     "express": "^5.1.0",
-    "tailwindcss": "^4.1.8",
     "vite": "^6.3.5"
   }
 }
