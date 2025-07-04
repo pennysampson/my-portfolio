@@ -1,6 +1,7 @@
 {
   "name": "my_portfolio",
   "version": "1.0.0",
+  "type": "module",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -13,7 +14,9 @@
   "private": true,
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",
-    "tailwindcss": "^4.1.11",
+    "tailwindcss": "^4.1.11"
+  },
+  "devDependencies": {
     "vite": "^7.0.1"
   }
 }
