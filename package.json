@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "type": "module",
   "description": "My portfolio, a static website",
+  "author": {
+    "email": "pene.sampson@outlook.com",
+    "name": "Penelope Sampson"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
