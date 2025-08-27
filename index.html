@@ -7,31 +7,39 @@
     <title>Penny's Portfolio</title>
 </head>
 <body>
-    <div id="background-container" class="grid grid-cols-4 auto-rows-min h-screen w-screen bg-slate-800">
+<div id="background-container"
+     class="grid grid-cols-4 auto-rows-min
+     h-screen w-screen
+     bg-neutral-900">
 
-        <div id="navbar" class="grid grid-cols-4 col-span-4
+<!--    Navigation bar      -->
+    <div id="navbar" class="grid grid-cols-4 col-span-4
             h-16
-            bg-slate-500 text-white
+            bg-neutral-800 text-neutral-400
             items-center justify-items-center">
 
-            <h2 class="hover:underline">Hello</h2>
+        <a id="home-button" class="hover:underline hover:text-purple-200 hover:cursor-pointer">Home</a>
 
-            <h2 class="hover:underline">Projects</h2>
+        <a id="projects-button" class="hover:underline hover:text-purple-200 hover:cursor-pointer">Projects</a>
 
-            <h2 class="hover:underline">My CV</h2>
+        <a id="cv-button" class="hover:underline hover:text-purple-200 hover:cursor-pointer">My CV</a>
 
-            <h2 class="hover:underline">Contact me</h2>
-
-        </div>
-
-        <div id="header-container" class="col-span-4 justify-items-center">
-            <h1 class="text-3xl text-white font-bold hover:text-purple-200 m-10">
-                Penelope (Penny) Sampson
-            </h1>
-        </div>
+        <a id="contact-button" class="hover:underline hover:text-purple-200 hover:cursor-pointer">Contact me</a>
 
     </div>
 
-    <script src="./resources/js/main.js"></script>
+<!--    Typescript injects page content here    -->
+    <div id="content-container"></div>
+
+    <div id="header-container" class="col-span-4 justify-items-center">
+        <h1 class="text-6xl text-white hover:text-purple-200 m-10">
+            Penelope (Penny) Sampson
+        </h1>
+    </div>
+
+
+</div>
+
+<script type="module" src="./resources/ts/main.ts"></script>
 </body>
 </html>
