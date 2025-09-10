@@ -11,16 +11,14 @@
      class="
      h-screen w-screen
      bg-neutral-200
-        grid grid-cols-8 grid-rows-3">
+     grid grid-cols-8 grid-rows-4">
 
 <!--    Top bar      -->
-    <div id="topbar" class="col-span-full
-            h-16
-            bg-neutral-300 text-neutral-400
-            items-center justify-items-center
-            grid grid-cols-subgrid">
+    <div id="topbar" class="
+            h-16 z-2
+            bg-neutral-300
+            grid grid-cols-subgrid col-span-full row-start-1">
         <div class="grid grid-cols-subgrid col-start-3 col-span-4">
-
             <div class="grid col-span-full grid-cols-3 place-items-center">
 
                 <a id="github-button" class="hover:underline hover:text-purple-200 hover:cursor-pointer" href="https://github.com/pennysampson">
@@ -44,13 +42,23 @@
                 </a>
 
             </div>
-
-
-
         </div>
+    </div>
 
+<!--    Heading     -->
+    <div id="heading" class="grid col-span-full row-start-1 row-span-2
+                            bg-[url(/resources/image/kseniya-lapteva-COeLdQRyR-s-unsplash.jpg)] bg-cover bg-center
+                            place-content-center">
 
+        <p class="bg-linear-to-r from-blue-500 to-violet-500 bg-clip-text text-6xl font-bold text-transparent p-3 row-span-full place-self-center">Penelope Sampson</p>
 
+    </div>
+    <div id="image-attribute" class="grid col-span-full row-start-1 row-span-2">
+
+        <p class="text-neutral-400 p-1 z-3 place-self-end">
+            <!--            Image Attribute       -->
+            Photo by <a href="https://unsplash.com/@ksushlapush?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Kseniya Lapteva</a> on <a href="https://unsplash.com/photos/white-and-black-abstract-painting-COeLdQRyR-s?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+        </p>
 
     </div>
 
