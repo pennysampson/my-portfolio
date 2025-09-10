@@ -1,12 +1,5 @@
 @import "tailwindcss";
 
-/*.gradient-text-animate {*/
-/*  background: linear-gradient(#3B82F6, #8B5CF6);*/
-/*  background-clip: text;*/
-/*  background-size: 300% 300%;*/
-/*  animation: infinite;*/
-/*}*/
-
 @keyframes gradient {
   0%, 100% {
     background-position: 0 50%;
